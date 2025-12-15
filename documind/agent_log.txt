@@ -1,0 +1,38 @@
+Device set to use cpu
+/home/fathimahusna/Desktop/Agent/Agents/documind/src/rag.py:31: LangChainDeprecationWarning: The class `HuggingFacePipeline` was deprecated in LangChain 0.0.37 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFacePipeline``.
+  return HuggingFacePipeline(pipeline=pipe)
+Token indices sequence length is longer than the specified maximum sequence length for this model (556 > 512). Running this sequence through the model will result in indexing errors
+Setting up data...
+Loading /home/fathimahusna/Desktop/Agent/Agents/documind/data/agent_test.txt...
+Splitting 1 documents...
+Storing 1 chunks in Vector DB...
+Ingestion complete.
+
+Initializing Agent...
+
+Question: What is 25 + 25?
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe sum of the number of digits of the number of digits is 25 + 25[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3m[0m
+
+[1m> Finished chain.[0m
+Final Answer: Agent stopped due to iteration limit or time limit.
+
+Question: What is DocuMind?
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mDocuMind is a software program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3ma software program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3msoftware program that teaches students how to use the DocuMin[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3m[0m
+
+[1m> Finished chain.[0m
+Final Answer: Agent stopped due to iteration limit or time limit.
+
+Question: When was DocuMind created?
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThe first version of DocuMind was released in 2004.[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004.[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3mThe first version of DocuMind was released in 2004. Observation: Invalid Format[0mInvalid Format: Missing 'Action:' after 'Thought:'[32;1m[1;3m[0m
+
+[1m> Finished chain.[0m
+Final Answer: Agent stopped due to iteration limit or time limit.

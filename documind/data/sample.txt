@@ -1,0 +1,5 @@
+
+    DocuMind is a revolutionary AI system designed to assist with document analysis.
+    It uses advanced RAG techniques to retrieve relevant information.
+    The system is built using Python, LangChain, and ChromaDB.
+    
