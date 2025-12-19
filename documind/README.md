@@ -39,7 +39,10 @@ docker build -t documind .
 docker run -p 8000:8000 documind
 ```
 
-### 3. API Usage
+### 3. Vercel Deployment
+This project can be deployed to Vercel. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+
+### 4. API Usage
 **Health Check**
 ```bash
 curl http://localhost:8000/health

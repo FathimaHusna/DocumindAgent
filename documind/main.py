@@ -10,16 +10,9 @@ from contextlib import asynccontextmanager
 
 agent = None
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    global agent
-    print("Loading agent...")
-    agent = get_agent()
-    print("Agent loaded.")
-    yield
-    print("Shutting down...")
 
-app = FastAPI(title="DocuMind API", description="Agentic RAG System", lifespan=lifespan)
+
+app = FastAPI(title="DocuMind API", description="Agentic RAG System")
 
 class ChatRequest(BaseModel):
     query: str
@@ -45,6 +38,12 @@ async def ingest_document(file: UploadFile = File(...)):
 
 @app.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
+    global agent
+    if not agent:
+        print("Loading agent for the first time...")
+        agent = get_agent()
+        print("Agent loaded.")
+        
     try:
         if not agent:
             raise HTTPException(status_code=503, detail="Agent not initialized")

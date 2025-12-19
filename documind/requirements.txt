@@ -5,8 +5,9 @@ sentence-transformers
 langchain-chroma
 chromadb
 pypdf
-python-dotenv
-fastapi
-uvicorn
+pydantic==2.5.3
+pydantic-settings
 numexpr
 python-multipart
+torch
+transformers
